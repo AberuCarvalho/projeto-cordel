@@ -24,6 +24,9 @@ body, html{
     font-family: var(--font1);
     background-color: rgb(121, 121, 121);
 }
+
+
+
 header a, footer a{
     text-decoration: none;
     color: white;
@@ -34,7 +37,6 @@ header a:hover, footer a:hover{
     background-color: skyblue;
     color:black;
 }
-
 header{
     background-color: black;
     color: white;
@@ -45,6 +47,10 @@ header{
 header > h1{
     font-family:var(--font2);
     font-variant: small-caps;
+    font-size: 8vw;
+}
+header >p{
+  padding-bottom: 8px;
 }
 section{
     padding-left: 30px;
@@ -52,7 +58,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     font-family:var(--font3);
-    font-size: 22px;
+    font-size: 3.5vw;
 }
 
 .normal{
@@ -80,7 +86,6 @@ section{
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-    font-size: 22px;
 }
 
 footer{
